@@ -8,8 +8,6 @@ cliphist
 egl-wayland
 file-roller
 fuzzel
-greetd
-greetd-regreet
 grim
 gtk-engine-murrine
 gtk-layer-shell
