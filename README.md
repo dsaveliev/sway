@@ -29,15 +29,13 @@ Alternatively, you can add Sway after the installation is complete by cloning th
     cd sway
 
     sudo ./sway-install.sh
-    
+
 ## Post install
 
 - Keyboard layout in: `~/.config/sway/config.d/input`
 - Screen settings in: `~/.config/sway/config.d/output`
 - Keybindings Cheatsheet: press keyboard icon in waybar
 
-- If you are experiencing issues with your cursor, edit `/etc/greetd/regreet.toml` and uncomment `WLR_NO_HARDWARE_CURSORS = "1"`
- 
 ## Get involved at our forum:
 https://forum.endeavouros.com/t/sway-edition-general-conversation
 
@@ -61,12 +59,12 @@ Click the keyboard icon in the Waybar to launch the keybinding cheatsheet.
 
 Windows are set to tile by default in Sway. This can be changed to:
 
-- stacking: Only the focused window in the container is displayed. You get a list of windows at the top of the container. 
+- stacking: Only the focused window in the container is displayed. You get a list of windows at the top of the container.
    - <kbd>Mod</kbd>+<kbd>S</kbd> = Vertical List
    - <kbd>Mod</kbd>+<kbd>W</kbd> = Horizontal List
-     - navigate lists with <kbd>Mod</kbd>+<kbd>↑ ↓ → ←</kbd> 
+     - navigate lists with <kbd>Mod</kbd>+<kbd>↑ ↓ → ←</kbd>
    - <kbd>Mod</kbd>+<kbd>E</kbd> = Back to tiling
-   
+
 ![sway](https://github.com/user-attachments/assets/9f4bbdac-e478-4918-bdac-da4d83cece42)
 
 Fuzzel:

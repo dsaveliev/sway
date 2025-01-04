@@ -50,3 +50,4 @@ xdg-desktop-portal-wlr
 xed
 xorg-xwayland
 ghostty
+ly
