@@ -7,7 +7,6 @@ brightnessctl
 cliphist
 egl-wayland
 file-roller
-foot
 fuzzel
 greetd
 greetd-regreet
@@ -50,3 +49,4 @@ wl-clipboard
 xdg-desktop-portal-wlr
 xed
 xorg-xwayland
+ghostty

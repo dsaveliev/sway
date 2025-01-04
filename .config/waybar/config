@@ -49,7 +49,7 @@
     },
 
 // Configuration - modules-center
-    
+
     "modules-center": [
         "network"
     ],
@@ -61,7 +61,7 @@
         "format-ethernet": "󰈀 {bandwidthDownBits:>} 󰶡 {bandwidthUpBits:>} 󰶣",
         "tooltip-format-ethernet": "{ifname}: {ipaddr}/{cidr}",
         "format-disconnected": " Disconnected",
-        "on-click": "footclient -T waybar_nmtui -e nmtui",
+        "on-click": "ghostty -e nmtui",
         "interval": 2
     },
 
@@ -105,15 +105,15 @@
         "format": "{usage:>3}%",
         "states": {
             "warning": 70,
-            "critical": 90,
+            "critical": 90
         },
-        "on-click": "footclient -T waybar_htop -e htop"
+        "on-click": "ghostty -e htop"
     },
-    
+
     "memory": {
         "interval": 5,
         "format": "{:>3}%",
-        "on-click": "footclient -T waybar_htop -e htop", 
+        "on-click": "ghostty -e htop",
         "states": {
             "warning": 70,
             "critical": 90
@@ -165,12 +165,12 @@
                 "weeks":      "<span color='#99ffdd'><b>W{}</b></span>",
                 "weekdays":   "<span color='#ffcc66'><b>{}</b></span>",
                 "today":      "<span color='#ff6699'><b><u>{}</u></b></span>"
-            },
+            }
         },
         "actions": {
             "on-scroll-up": "shift_up",
             "on-scroll-down": "shift_down"
-        },
+        }
     },
 
     "tray": {
@@ -182,5 +182,5 @@
         "format":"⏻",
         "on-click": "exec ~/.config/sway/scripts/power_menu.sh",
         "tooltip": false
-    },
+    }
 }

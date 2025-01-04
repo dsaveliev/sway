@@ -18,16 +18,13 @@ exec_always swayidle -w before-sleep "gtklock -d"
 # Desktop notifications
 exec mako
 
-# Start foot server
-exec_always --no-startup-id foot --server
-
 # Autotiling
 exec autotiling
 
 # cliphist
 exec wl-paste --type text --watch cliphist store
 exec wl-paste --type image --watch cliphist store
-     
+
 # Network Applet
 exec nm-applet --indicator
 
